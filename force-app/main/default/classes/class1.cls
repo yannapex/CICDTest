@@ -5,5 +5,6 @@ public with sharing class class1 {
         //comment3
         //comment4
         //comment5
+        //comment6
     }
 }
