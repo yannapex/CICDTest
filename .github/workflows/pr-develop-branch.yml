@@ -125,7 +125,7 @@ jobs:
               run: |
                   echo "AMER"
                   echo '${{ secrets.SFDX_INTEGRATION_URL}}' >> $GITHUB_OUTPUT;
-                  echo '${{ secrets.SFDX_INTEGRATION_URL2}}' >> $GITHUB_OUTPUT;
+                  echo '${{ vars.SFDX_INTEGRATION_URL}}' >> $GITHUB_OUTPUT;
                   echo '$SFDX_INTEGRATION_URL' >> $GITHUB_OUTPUT;
                   echo $SFDX_INTEGRATION_URL >> $GITHUB_OUTPUT;
                   echo '${{ secrets.SFDX_INTEGRATION_URL}}' > ./SFDX_INTEGRATION_URL.txt
